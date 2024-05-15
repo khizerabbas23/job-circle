@@ -1,0 +1,8 @@
+#JobCircleJobAlertsModal > .modal-dialog {
+    width: 100%;
+    max-width: 800px;
+}
+
+.dashboard-content, .dashboard-content table {
+    width: 100%;
+}

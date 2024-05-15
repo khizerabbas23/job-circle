@@ -1,0 +1,213 @@
+/* Theme Base Color Styles */
+.btn.btn-primary,
+.btn.btn-green,
+.navigation > li > a.btn-info,
+.nav-tabs.nav-tabs-line li .nav-link.active::after,
+.social-networks li a:hover,
+.social-links li a:hover,
+.leadership-box .social-networks li a:hover,
+.accordion_list li button:not(.collapsed) .icon,
+.pagination .page-link:hover,
+.pagination .page-item.active .page-link,
+.section-theme-1 .pagination .page-item.active .page-link,
+.section-theme-1 .pagination .page-item .page-link:hover,
+.section-theme-6.learning-block.bg-light-sky .thumbs-list .thumbnail::before,
+.btn-app.btn-play-store,
+.section-theme-1.latest-news-block.latest-blog .news-post .btn.btn-green::before,
+.sidebar.sidebar-theme-1 .h5::after,
+.sidebar.sidebar-theme-1 .widget.widget_categories ul li a:hover,
+.widget .search-form .btn-search,
+.sidebar.sidebar-theme-1 .widget.widget_newsletter .search-form .btn-search,
+.post.singlepost-theme-1 ul li::before,
+.post.singlepost-theme-1 .social-share li a:hover,
+.post.singlepost-theme-1 .commentlist-item .comment-reply-link:hover,
+.bullet-list li::before,
+.section-about .video-box::before,
+.team-box .button-overplay .btn,
+.bg-overlay.bg-primary::after,
+.tagcloud > a:hover,
+.tweets-slider .slick-dots li button:hover,
+.tweets-slider .slick-dots li.slick-active button,
+.section-theme-1 .page-subheader .grid-buttons .btn.active,
+.section-theme-1 .page-subheader .grid-buttons .btn:hover,
+.ui-slider .ui-slider-range,
+.section-theme-1 .filter-box .ui-slider .ui-slider-handle,
+.section-theme-1 .filter-box .ui-slider .ui-slider-range,
+.custom-checkbox input[type=checkbox]:checked + .fake-checkbox,
+.custom-checkbox input[type=radio]:checked + .fake-checkbox,
+.candidate-info-list li::before,
+.related-categories.related-services .services-carousel .slick-arrow:hover,
+.progress-bar.bg-warning,
+.slick-dots li button:hover,
+.slick-dots li.slick-active button,
+.related-categories.section-quotes .quotes-slider .slick-arrow:hover,
+.quotes-box:hover,
+.job-details-header .utility-buttons .btn-tag:hover,
+.related-categories.section-categories .jobs-listing-slider .slick-arrow:hover,
+.related-categories.section-categories .featured-category-box:hover,
+.btn.btn-dark-yellow:hover,
+.contact-box .icon-holder,
+.section-theme-1 .package-box .icon,
+.account-box .icon,
+.account-box .contac-form .custom-checkbox input[type=checkbox]:checked + .fake-checkbox,
+.subvisual-theme-1.block-404 .btn-search:hover,
+.section-faqs .accordion .accordion-button:not(.collapsed) .bullet,
+.featured-category-box:hover,
+.page-subheader .grid-buttons .btn.active,
+.page-subheader .grid-buttons .btn:hover,
+.popular-jobs-box .btn-bookmark.active,
+.popular-jobs-box .btn-bookmark:hover,
+.jobs-card .btn.btn-green::before {
+  background: var(--colorPrimary) !important;
+}
+
+.post.singlepost-theme-1 blockquote::before,
+.breadcrumb-nav.bg-primary {
+  background-color: var(--colorPrimary) !important;
+}
+
+.commentlist .comment-reply-link,
+.entry-meta .icon,
+.widget ul li a:hover,
+.sidebar.sidebar-theme-1 .widget ul li a:hover,
+.recent-posts .date i,
+.leadership-box .number a:hover,
+.subvisual-theme-1 .breadcrumb-nav .breadcrumb a:hover,
+.section-theme-1.latest-news-block.latest-blog .news-post .h3 a:hover,
+.section-theme-1.latest-news-block.latest-blog .news-post .post-meta-wrap .post-meta li a:hover,
+.section-theme-1.latest-news-block.latest-blog .news-post .post-by a:hover,
+.sidebar.sidebar-theme-1 .recent-posts .title a:hover,
+.sidebar.sidebar-theme-1 .recent-posts .date i,
+.sidebar.sidebar-theme-1 .widget.widget_categories ul li:hover .count,
+.post.singlepost-theme-1 .post-author-info .post-by a:hover,
+.post.singlepost-theme-1 blockquote cite span,
+.post.singlepost-theme-1 .post-tags .title,
+.post.singlepost-theme-1 .tagcloud > a:hover,
+.text-link,
+.counters-block .icon,
+.section-header h2 .text-primary,
+.team-box h3 a:hover,
+.featured-team .team-box .subtext,
+.service-box .icon-holder,
+.news-post:hover h3 a,
+.post-footer .read-more:hover,
+.gallery-slider .news-post .h5 a:hover,
+.gallery-slider .news-post h4 a:hover,
+.candidate-box .pin-job:hover,
+.candidate-box h2 a:hover,
+.company-info-box .company-contact-list > li .ico,
+.about-list li .subtext a:hover,
+.sorting-list li a:hover,
+.sorting-list li.active a,
+.check-list li::before,
+.num-list li::before,
+.featured-box:hover h3,
+.featured-box .stats-list .icon,
+.featured-box .pin-job:hover,
+.contact-box a:hover,
+.contact-support .contact-box .icon-holder,
+.contact-support .contact-box a:hover,
+.account-box .contac-form .link:hover,
+.subvisual-theme-1.block-404 h1,
+.section-theme-1 .filters-sidebar .filters-sidebar-Head .btn-clear:hover,
+.section-theme-1 .filter-box .buttonShowMore:hover,
+.featured-box h3 a:hover,
+.service-box h3 a:hover {
+  color: var(--colorPrimary) !important;
+}
+
+.btn.btn-green,
+.leadership-box .social-networks li a:hover,
+.pagination .page-link:hover,
+.pagination .page-item.active .page-link,
+.section-theme-1 .pagination .page-item.active .page-link,
+.section-theme-1 .pagination .page-item .page-link:hover,
+.section-theme-1 .pagination .page-item:first-child .page-link,
+.section-theme-1 .pagination .page-item:last-child .page-link,
+.section-theme-1 .pagination .page-item:first-child .page-link:hover,
+.section-theme-1 .pagination .page-item:last-child .page-link:hover,
+.sidebar.sidebar-theme-1 .widget.widget_categories ul li .count,
+.video-box .btn-play .icon-play,
+.post blockquote,
+.tagcloud > a:hover,
+.section-theme-1 .page-subheader .grid-buttons .btn.active,
+.section-theme-1 .page-subheader .grid-buttons .btn:hover,
+.ui-slider .ui-slider-handle,
+.section-theme-1 .filter-box .ui-slider .ui-slider-handle,
+.custom-checkbox input[type=checkbox]:checked + .fake-checkbox,
+.custom-checkbox input[type=radio]:checked + .fake-checkbox,
+.candidate-box:hover,
+.candidate-box:hover .icon-box,
+.candidate-info-list li::after,
+.candidate-box:hover .stats-list,
+.quotes-box:hover,
+.job-details-header .utility-buttons .btn-tag:hover,
+.featured-box:hover,
+.contact-support .contact-box .icon-holder,
+.section-theme-1 .package-box .icon,
+.account-box .contac-form .custom-checkbox input[type=checkbox]:checked + .fake-checkbox,
+.page-subheader .grid-buttons .btn.active,
+.page-subheader .grid-buttons .btn:hover,
+.popular-jobs-box .btn-bookmark.active,
+.popular-jobs-box .btn-bookmark:hover {
+  border-color: var(--colorPrimary) !important;
+}
+
+.video-box .btn-play .icon-play::before {
+  border-left-color: var(--colorPrimary) !important;
+}
+
+/* Theme Base Dark Color Styles */
+.subvisual-block,
+.section-theme-1 .matched-jobs-block,
+.widget .search-form .btn-search:hover,
+.sidebar.sidebar-theme-1 .widget.widget_newsletter .search-form .btn-search:hover,
+.post.singlepost-theme-1 .post-author,
+.section-theme-1 .package-box.bg-dark-green,
+.section-theme-1.packages-block.option-styles .package-box.bg-dark-green,
+.team-box .button-overplay::before {
+  background: var(--colorDarkPrimary) !important;
+}
+
+.commentlist .comment-reply-link:hover,
+.breadcrumb a:hover,
+.text-link:hover {
+  color: var(--colorDarkPrimary) !important;
+}
+
+/* Theme Base Light Color Styles */
+.how-work-box .icon,
+.section-theme-6.learning-block.bg-light-sky .text-info-slider::before,
+.matched-jobs-block::before,
+.quotes-box .social-icon {
+  background: var(--colorLightPrimary) !important;
+}
+
+.section-theme-6.learning-block.bg-light-sky .text-info-slider,
+.quotes-box .author-avatar {
+  border-color: var(--colorLightPrimary) !important;
+}
+
+.quotes-box {
+  box-shadow: 0 10px 0 var(--colorLightPrimary) !important;
+}
+
+.section-theme-6.learning-block.bg-light-sky .thumbs-list .thumbnail::before,
+.section-about .video-box::before,
+.team-box .button-overplay::before {
+  opacity: 0.85;
+}
+
+/* General Inherit Color Styles */
+.btn.btn-green:hover::before,
+.navigation > li > a.btn-info:hover:before,
+.btn.btn-primary:hover::before,
+.candidate-box:hover .btn.btn-primary::before,
+.btn.btn-dark-yellow:hover::before,
+.featured-box:hover .btn.btn-primary::before {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.job-details-header .social-networks li a:hover {
+  background: transparent !important;
+}

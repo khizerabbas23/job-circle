@@ -1,0 +1,340 @@
+/*---------------------------------------------------------------------------------------------
+    generic
+---------------------------------------------------------------------------------------------*/
+
+.cstmfield_tooltip {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    line-height: 1;
+    width: 13px;
+    height: 13px;
+    font-size: 11px;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.tooltip_inner {
+    display: none;
+}
+
+/*---------------------------------------------------------------------------------------------
+    #cstmfield_fields (container)
+---------------------------------------------------------------------------------------------*/
+
+#cstmfield_fields .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#cstmfield_fields .table_footer {
+    padding: 10px 12px;
+    text-align: right;
+}
+
+#cstmfield_fields .field_meta.even td {
+    background-color: #fcfcfc;
+}
+
+#cstmfield_fields .fields {
+    margin: 0;
+    background: #0073aa;
+}
+
+#cstmfield_fields .fields a.cstmfield_edit_field {
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#cstmfield_fields .fields .button-secondary.cstmfield_edit_field {
+    vertical-align: baseline;
+}
+
+#cstmfield_fields .fields li {
+    margin: 0;
+}
+
+#cstmfield_fields .fields li li {
+    margin: 0 0 0 10px;
+}
+
+#cstmfield_fields .fields li.loop ul {
+    min-height: 10px;
+}
+
+#cstmfield_fields .field.form_open {
+    border-bottom: 1px solid #DFDFDF;
+}
+
+#cstmfield_fields .field.form_open .field_meta td {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+#cstmfield_fields .field.form_open .field_meta td a {
+    color: #fff;
+}
+
+/*---------------------------------------------------------------------------------------------
+    #cstmfield_rules (container)
+---------------------------------------------------------------------------------------------*/
+
+#cstmfield_rules .select2 {
+    width: 99.95%;
+}
+
+/*---------------------------------------------------------------------------------------------
+    field_meta
+---------------------------------------------------------------------------------------------*/
+
+.field_meta table {
+    border: 0;
+    border-radius: 0;
+    border-spacing: 0;
+}
+
+.field_meta td {
+    border: 0;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 8px 0;
+}
+
+.field_meta td.field_order {
+    width: 48px;
+    cursor: move;
+    position: relative;
+}
+
+.field_meta td.field_order:after {
+    content: '\f333';
+}
+
+.form_open .field_meta td.field_order:after {
+    color: #fff;
+}
+
+.field_meta td.field_name {
+    width: 180px;
+}
+
+.field_meta td.field_type {
+    width: 100px;
+    padding-left: 8px;
+}
+
+/*---------------------------------------------------------------------------------------------
+    field_form
+---------------------------------------------------------------------------------------------*/
+
+.field_form {
+    display: none;
+}
+
+.field_form table {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-spacing: 0;
+}
+
+.field_form td {
+    padding: 10px 12px;
+}
+
+.field_form td.label {
+    width: 24%;
+    vertical-align: top;
+}
+
+.field_form td.label label {
+    color: #333;
+}
+
+.field_form td.label p.description {
+    color: #666;
+    font-style: normal;
+    margin: 6px 0 0 0 !important;
+}
+
+.field_form span.required {
+    margin-right: 5px;
+    color: red;
+}
+
+.field_form tr.field_basics table {
+    padding: 10px 12px;
+    border-bottom: 1px solid #dfdfdf;
+    border-spacing: 0;
+}
+
+.field_form tr.field_basics td {
+    padding: 0 20px 0 0;
+    border: none;
+}
+
+.field_form tr.field_basics td:last-child {
+    padding: 0;
+}
+
+.field_form tr.field_label td {
+    border-top: 0;
+}
+
+.field_form tr.field_actions td {
+    background: #fff;
+}
+
+.field_form select,
+.field_form textarea,
+.field_form input[type="text"] {
+    width: 99.95%;
+    margin-top: 10px;
+}
+
+.field_form select.multiple {
+    height: 100px;
+}
+
+.ui-sortable-placeholder {
+    height: 5px;
+    background-color: orange;
+}
+
+/*---------------------------------------------------------------------------------------------
+    Buttons, links
+---------------------------------------------------------------------------------------------*/
+
+span.cstmfield_delete_field {
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+
+span.cstmfield_delete_field:hover {
+    text-decoration: none;
+    background: red;
+    color: #fff;
+}
+
+/*---------------------------------------------------------------------------------------------
+    Options
+---------------------------------------------------------------------------------------------*/
+
+#cstmfield_rules .inside,
+#cstmfield_extras .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#cstmfield_rules table,
+#cstmfield_extras table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+#cstmfield_rules table td,
+#cstmfield_extras table td {
+    padding: 10px 12px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#cstmfield_rules table tr:last-child td,
+#cstmfield_extras table tr:last-child td {
+    border-bottom: none;
+}
+
+#cstmfield_rules table td.label,
+#cstmfield_extras table td.label {
+    width: 120px;
+    background: #fff;
+    vertical-align: top;
+}
+
+#cstmfield_rules table td.label label,
+#cstmfield_extras table td.label label {
+    color: #333;
+    line-height: 1.5em;
+}
+
+#cstmfield_rules table td.label p.description,
+#cstmfield_extras table td.label p.description {
+    color: #666;
+    font-style: normal;
+    margin: 6px 0 0 0 !important;
+}
+
+#cstmfield_rules table select,
+#cstmfield_extras table select,
+#cstmfield_rules table textarea,
+#cstmfield_extras table textarea,
+#cstmfield_rules table input[type="text"],
+#cstmfield_extras table input[type="text"] {
+    width: 99.95%;
+    height: auto;
+    padding: 5px;
+    outline: none;
+}
+
+#wpcontent #cstmfield_extras table select.multiple {
+    height: 60px;
+}
+
+/*---------------------------------------------------------------------------------------------
+    Checkboxes
+---------------------------------------------------------------------------------------------*/
+
+span.checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: inline-block;
+    background: url(../images/checkbox-off.png) no-repeat;
+    vertical-align: bottom;
+    margin-right: 3px;
+}
+
+span.checkbox.active {
+    background: url(../images/checkbox-on.png) no-repeat;
+}
+
+/*---------------------------------------------------------------------------------------------
+    Hide some submit buttons
+---------------------------------------------------------------------------------------------*/
+
+#submitdiv #minor-publishing-actions,
+#submitdiv #misc-publishing-actions {
+    display: none;
+}
+
+#submitdiv #major-publishing-actions {
+    border-top: none;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+    Icons
+---------------------------------------------------------------------------------------------*/
+
+.field_meta td.field_order:after {
+    display: block;
+    color: #aaa;
+
+    /* dashicons */
+    font-size: 20px;
+    font-family: dashicons;
+    width: 100%;
+    height: 20px;
+    line-height: 1;
+    font-weight: 400;
+    text-decoration: inherit;
+    vertical-align: top;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -mos-osx-font-smoothing: grayscale;
+}
+
+#cstmfield_extras {
+    display: none;
+}

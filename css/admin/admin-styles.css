@@ -1,0 +1,55 @@
+#redux-header .redux-dev-mode-notice {display: none;}
+.jobcircle-post-layout {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+}
+.jobcircle-post-layout .elem-label {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.elem-label .label-detail {
+    flex: 0 0 25%;
+}
+.elem-label .input-detail {
+    flex: 0 0 calc(75% - 30px);
+}
+.jobcircle-element-field {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.jobcircle-element-field .elem-label {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 15px;
+    border: none;
+}
+.bkimg-uploder-con {
+    position: relative;
+    display: inline-block;
+}
+.bkimg-uploder-con img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.bkimg-uploder-con .jobcircle-rem-media-b {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: #f00;
+    cursor: pointer;
+    color: #fff;
+    padding: 2px;
+    border-radius: 30px;
+}

@@ -1,0 +1,42 @@
+.jobcircle-star-rating .rating {
+    cursor: pointer;
+}
+
+.jobcircle-star-rating .rating i {
+    font-size: 24px;
+    color: #ccc;
+    margin-right: 5px;
+}
+
+.jobcircle-star-rating .rating i:hover,
+.jobcircle-star-rating .rating i.active {
+    color: #ffc107; /* Yellow color for selected stars */
+}
+
+
+.star-rating {
+    display: inline-flex;
+    align-items: center;
+    color: #ffc107; /* Yellow color */
+}
+
+.stars {
+    display: inline-block;
+    font-size: 24px; /* Adjust font size as needed */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.stars i {
+    margin-right: 2px; /* Adjust spacing between stars */
+}
+
+.rating-percentage {
+    margin-left: 5px; /* Adjust spacing between stars and percentage */
+}
+
+.jobcircle-dashboard-box{
+    display: flex;
+    background-color: #ccc;
+    color:black;
+}
